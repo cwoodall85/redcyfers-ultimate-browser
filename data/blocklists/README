@@ -1,0 +1,8 @@
+Hosts lists the browser blocks (host and every subdomain), when requested
+by a different site. Format: "0.0.0.0 host" / "127.0.0.1 host" / "host".
+Any *.txt or *.hosts file here or in ~/.local/share/ultimate-browser/blocklists
+is loaded at start.
+
+stevenblack.hosts -- StevenBlack/hosts unified list (adware + malware),
+MIT licence, https://github.com/StevenBlack/hosts. Snapshot; refresh with
+  curl -L -o stevenblack.hosts https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts

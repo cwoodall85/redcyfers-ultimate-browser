@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="42%" r="62%">
+      <stop offset="0" stop-color="#12302a"/><stop offset="1" stop-color="#050a08"/>
+    </radialGradient>
+    <linearGradient id="ring" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#00ffa8"/><stop offset="1" stop-color="#3fe0c5"/>
+    </linearGradient>
+  </defs>
+  <rect x="8" y="8" width="240" height="240" rx="56" fill="url(#bg)"/>
+  <!-- a globe: rim, meridians and parallels in mint -->
+  <g fill="none" stroke="url(#ring)" stroke-linecap="round">
+    <circle cx="128" cy="128" r="76" stroke-width="10"/>
+    <ellipse cx="128" cy="128" rx="32" ry="76" stroke-width="6" opacity="0.8"/>
+    <path d="M56 104 H200 M56 152 H200" stroke-width="6" opacity="0.8"/>
+  </g>
+  <!-- Claude's spark, coral, where the globe's lines meet -->
+  <g transform="translate(176 76)">
+    <circle r="26" fill="#050a08"/>
+    <path d="M0 -18 L4 -4 L18 0 L4 4 L0 18 L-4 4 L-18 0 L-4 -4 Z" fill="#ff8f6b"/>
+  </g>
+</svg>

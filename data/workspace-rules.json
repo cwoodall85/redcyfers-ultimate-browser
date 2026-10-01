@@ -1,0 +1,10 @@
+{
+  "_about": "Which workspace a site belongs to, for imports (and later, for opening links). A host matches an entry when it equals it or ends with '.' + it. First workspace with a match wins; anything else goes to 'default'. Copied to ~/.config/Ultimate Linux/ultimate-browser/workspace-rules.json on first run: edit that copy.",
+  "_example": {
+    "Work": [
+      "example.com",
+      "mail.example.com"
+    ]
+  },
+  "default": "Personal"
+}
